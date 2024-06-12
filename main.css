@@ -161,6 +161,7 @@ body {
     top:230px;
     animation: up 1s ease forwards;
     transition: .2s;
+    cursor: pointer;
   }
   .hover {
     color: white;
@@ -169,15 +170,14 @@ body {
     margin-bottom: 0;
   }
   
-  .text:hover span {
+  /* .text:hover span {
     display: none;
   }
   
   .text:hover:before {
     content:"Nem um milhão de linhas de código seriam capazes de registrar o amor que sinto por você. TE AMO -JM";
-    font-size:25px;
-  
-  }
+    font-size: 25px;
+  } */
 
   iframe {
     margin-top: 0;

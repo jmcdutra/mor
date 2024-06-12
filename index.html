@@ -41,7 +41,18 @@
         <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/5Dov305bMqAtomYcVaiaFA?si=34a80cee82764880?utm_source=generator" width="50%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
     </div>
 
-    <!-- <script>
+    <script>
+    document.querySelector('.text').addEventListener('click', function() {
+      this.querySelector('span').style.display = 'none';
+      this.style.position = 'relative';
+      let beforeContent = document.createElement('div');
+      beforeContent.style.position = 'absolute';
+      beforeContent.style.top = '0';
+      beforeContent.style.left = '0';
+      beforeContent.style.fontSize = '25px';
+      beforeContent.textContent = "Nem um milhão de linhas de código seriam capazes de registrar o amor que sinto por você. TE AMO -JM";
+      this.appendChild(beforeContent);
+    });
         window.alert("Oi meu amor!")
         window.alert("Você é uma pessoa que chegou na minha vida e conseguiu mudar completamente a minha perspectiva do que é amar, com você eu me sinto bem e depois de tanto tempo eu sei o que é amar de verdade...")
         window.alert("Me apaixonei pelo seu jeito, pela infinidade desses olhos que me perco sempre que entram em contato com os meus, por essa boca que me faz esquecer de tudo, por esse sorriso que me encanta a todo instante, por essa voz que se repete na minha cabeça enquanto estamos longe...")
@@ -53,7 +64,7 @@
         window.alert("Quero viver o presente e planejar o futuro ao seu lado...")
         window.alert("Eu te amo muito!")
         window.alert('"O que já não brilhava em mim você acendeu."')
-    </script>  -->
+    </script> 
 </body>
 
 </html>
